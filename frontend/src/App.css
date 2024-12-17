@@ -1,0 +1,76 @@
+/* General container styling */
+.container {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Filters section */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.filters select {
+  width: 200px;
+}
+
+/* Stats section */
+.stats {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.stats p {
+  margin: 5px 0;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.highlight {
+  background-color: #ffcccc;
+  font-weight: bold;
+}
